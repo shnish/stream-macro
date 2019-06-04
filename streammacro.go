@@ -66,10 +66,10 @@ func doAction(configAction string) error {
 		a := []byte(strings.TrimSpace(action))
 		switch a[0] {
 		case 'k':
-			// TODO: support click and hold / multi-char buttons
+			// TODO: support click and hold / multi-char buttons?
 			robotgo.KeyTap(string(a[1]))
 		case 'm':
-			// TODO: support extra mouse buttons
+			// TODO: support extra mouse buttons?
 			switch a[1] {
 			case 'l':
 				robotgo.MouseClick("left", false)
