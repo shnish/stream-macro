@@ -6,6 +6,8 @@
 
 `go get github.com/google/gops`
 
+`brew install mingw-w64`
+
 ## Build:
 
 For Windows 64bit:
